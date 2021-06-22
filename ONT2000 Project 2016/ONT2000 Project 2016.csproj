@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF7BD3D0-2ADD-4DEF-94BD-F8367311516D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ONT2000_Project_2016</RootNamespace>
+    <AssemblyName>ONT2000 Project 2016</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisciplineAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisciplineAdd.Designer.cs">
+      <DependentUpon>DisciplineAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAdd.Designer.cs">
+      <DependentUpon>EventAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="medalWinnersAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medalWinnersAdd.Designer.cs">
+      <DependentUpon>medalWinnersAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OlympicDetailsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OlympicDetailsAdd.Designer.cs">
+      <DependentUpon>OlympicDetailsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipantAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParticipantAdd.Designer.cs">
+      <DependentUpon>ParticipantAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamAdd.Designer.cs">
+      <DependentUpon>TeamAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountryAdd.Designer.cs">
+      <DependentUpon>CountryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountryChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountryChange.Designer.cs">
+      <DependentUpon>CountryChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisciplineChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisciplineChange.Designer.cs">
+      <DependentUpon>DisciplineChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventChange.Designer.cs">
+      <DependentUpon>EventChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedalWinnersChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedalWinnersChange.Designer.cs">
+      <DependentUpon>MedalWinnersChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OlympicDetailsChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OlympicDetailsChange.Designer.cs">
+      <DependentUpon>OlympicDetailsChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipantChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParticipantChange.Designer.cs">
+      <DependentUpon>ParticipantChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamChange.Designer.cs">
+      <DependentUpon>TeamChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Country.Designer.cs">
+      <DependentUpon>Country.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountryEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountryEvent.Designer.cs">
+      <DependentUpon>CountryEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountryDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountryDelete.Designer.cs">
+      <DependentUpon>CountryDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscplineDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiscplineDelete.Designer.cs">
+      <DependentUpon>DiscplineDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventDelete.Designer.cs">
+      <DependentUpon>EventDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedalWinnersDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedalWinnersDelete.Designer.cs">
+      <DependentUpon>MedalWinnersDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OlympicDetailsDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OlympicDetailsDelete.Designer.cs">
+      <DependentUpon>OlympicDetailsDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipantDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParticipantDelete.Designer.cs">
+      <DependentUpon>ParticipantDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamDelete.Designer.cs">
+      <DependentUpon>TeamDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Discpline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discpline.Designer.cs">
+      <DependentUpon>Discpline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Event.Designer.cs">
+      <DependentUpon>Event.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventMedal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventMedal.Designer.cs">
+      <DependentUpon>EventMedal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medal Winners.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medal Winners.Designer.cs">
+      <DependentUpon>Medal Winners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Olympic Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Olympic Details.Designer.cs">
+      <DependentUpon>Olympic Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Particapant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Particapant.Designer.cs">
+      <DependentUpon>Particapant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team.Designer.cs">
+      <DependentUpon>Team.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DisciplineAdd.resx">
+      <DependentUpon>DisciplineAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAdd.resx">
+      <DependentUpon>EventAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medalWinnersAdd.resx">
+      <DependentUpon>medalWinnersAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OlympicDetailsAdd.resx">
+      <DependentUpon>OlympicDetailsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticipantAdd.resx">
+      <DependentUpon>ParticipantAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamAdd.resx">
+      <DependentUpon>TeamAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountryAdd.resx">
+      <DependentUpon>CountryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountryChange.resx">
+      <DependentUpon>CountryChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisciplineChange.resx">
+      <DependentUpon>DisciplineChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventChange.resx">
+      <DependentUpon>EventChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedalWinnersChange.resx">
+      <DependentUpon>MedalWinnersChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OlympicDetailsChange.resx">
+      <DependentUpon>OlympicDetailsChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticipantChange.resx">
+      <DependentUpon>ParticipantChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamChange.resx">
+      <DependentUpon>TeamChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Country.resx">
+      <DependentUpon>Country.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountryEvent.resx">
+      <DependentUpon>CountryEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountryDelete.resx">
+      <DependentUpon>CountryDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscplineDelete.resx">
+      <DependentUpon>DiscplineDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventDelete.resx">
+      <DependentUpon>EventDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedalWinnersDelete.resx">
+      <DependentUpon>MedalWinnersDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OlympicDetailsDelete.resx">
+      <DependentUpon>OlympicDetailsDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticipantDelete.resx">
+      <DependentUpon>ParticipantDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamDelete.resx">
+      <DependentUpon>TeamDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discpline.resx">
+      <DependentUpon>Discpline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event.resx">
+      <DependentUpon>Event.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventMedal.resx">
+      <DependentUpon>EventMedal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medal Winners.resx">
+      <DependentUpon>Medal Winners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Olympic Details.resx">
+      <DependentUpon>Olympic Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Particapant.resx">
+      <DependentUpon>Particapant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Team.resx">
+      <DependentUpon>Team.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business Layer\Business Layer.csproj">
+      <Project>{ebf33487-7357-4698-b24c-ed0fd8f9c1e2}</Project>
+      <Name>Business Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
